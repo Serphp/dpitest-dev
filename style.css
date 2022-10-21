@@ -21,7 +21,39 @@ h1 {
     font-family: monospace;
     cursor: pointer;
 }
+.btn:hover{
+    opacity: 0.9;
+}
+.btn:focus{
+    outline: 0;
+}
 
 .screen {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    transition: margin 0.5s ease-in-out; /*ease-out*/
+}
+
+.screen.up{
+    margin-top: -100vh;
+}
+
+.choose-point-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: note;
+}
+
+.choose-point-list li{
+    margin: 10px;
+}
+
+.choose-point-btn{
+    background-color: transparent;
 }
