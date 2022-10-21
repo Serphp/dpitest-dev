@@ -1,0 +1,27 @@
+
+body {
+    background-color: aquamarine;
+    color: white;
+    font-family: monospace;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    line-height: 1.5;
+}
+
+.btn {
+    border: 0;
+    background-color: white;
+    padding: black;
+    color: crimson;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.screen {
+    display: flex;
+}
